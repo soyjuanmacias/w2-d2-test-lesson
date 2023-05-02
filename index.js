@@ -1,4 +1,5 @@
 // Shorcut plegar funciones (fold on)
+// Cambiar repo de esta carpeta a un js-mental-models
 
 // ¿A qué resuelve una expresión de llamada?
 // Una expresión de llamada resuelve al valor que devuelve 
@@ -97,6 +98,8 @@
 /**
  * Equality, strict equal, object.is, 
  * 
- * Sale Marco a la pizarra 
- * - 
+ * - Sale Marco
+ * - Sale Álex
+ * - Sale Alfredo
+ * - Sale Carlos
  */
