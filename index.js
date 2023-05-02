@@ -102,4 +102,8 @@
  * - Sale Álex
  * - Sale Alfredo
  * - Sale Carlos
+ * - Sale Sofía
+ * - Sale Silvia
+ * - Sale Kevin
+ * - Sale Juan
  */
