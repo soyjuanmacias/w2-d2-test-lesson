@@ -1,3 +1,5 @@
+// Shorcut plegar funciones (fold on)
+
 // ¿A qué resuelve una expresión de llamada?
 // Una expresión de llamada resuelve al valor que devuelve 
 // resolver, solucionar, arreglar, fix, bugfix
@@ -7,6 +9,10 @@
 
 // Expresión literal - Literatura, libros -> Expresar lectura
 // {}, () => {}, 
+
+/**
+ * A la derecha del return, expresión
+ */
 
 // Silbido fijo = Asignación
 // Silbido intermitente = Leer+
@@ -60,8 +66,37 @@
  * - Explicación @types/jest --> 
  * - Explicación tag DT npm
  * - Errores (Error de configuración)
+ * - Se explica con una función suma y expect 3, 2 = 5
  * - Instalación transpiler babel
  * - AAA
- * - 
+ * - Given a sum function
+ * - When it receives 2 and 3
+ * - Then it should return 5
  * 
+ * MagicString. El resultado del expected siempre guardado en variable
+ * 
+ * (Charla bootcamp)
+ * 
+ * Casos de usos función Imprimir camiseta:
+ * - En el Given: SUT --> System Under Test
+ * 
+ * - Truco Mario para saber que poner. Empezar por el act.
+ * - Ejemplos de getTotalWords, convertToCamelCase
+ * - Se crea una función convertToCamelCase con un código que se puede refactorizar
+ * - Luego se crea la batería de tests para la función.
+ * - Se refactoriza luego la función.
+ * - test.only
+ * - modo watch
+ * - Programación funcional
+ * - Ternario
+ * - Funcion pascal case y testing
+ * - .toBe() usa Object.is
+ */
+
+
+/**
+ * Equality, strict equal, object.is, 
+ * 
+ * Sale Marco a la pizarra 
+ * - 
  */
