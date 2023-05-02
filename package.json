@@ -1,0 +1,21 @@
+{
+  "name": "js-mental-models",
+  "version": "1.0.0",
+  "description": "# Expresión de ¿Llamada?",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyjuanmacias/w2-d2-test-lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soyjuanmacias/w2-d2-test-lesson/issues"
+  },
+  "homepage": "https://github.com/soyjuanmacias/w2-d2-test-lesson#readme"
+}

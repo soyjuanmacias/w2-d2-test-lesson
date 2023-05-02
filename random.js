@@ -1,26 +1,15 @@
-const students = [
-    'Lanza',
-    'Marco',
-    'David',
-    'Luis',
-    'Voluntario',
-    'Alfredo',
-    'Silvia',
-    'Alex',
-    'Kevin',
-    'Voluntario',
-    'Juan',
-    'Raquel Ortega',
-    'Nitin',
-    'Sergio',
-    'Javi',
-    'Voluntario',
-    'Sofía',
-    'Carlos',
-    'Freddy',
-    'Nano',
-    'Raquel Arados',
-]
+import fs from 'fs';
+import path from 'path';
+
+const write = (path, data) => {
+    fs.writeFile(`./${path.replace('/', '')}`, JSON.stringify(data), err => {
+          if (err) return console.error(err);
+          console.log('Archivo grabado correctamente');
+        });
+}
+
+
+const students = fs.readFile()
 
 const getRandomStudentList = () =>
     students
@@ -28,4 +17,5 @@ const getRandomStudentList = () =>
     .sort((a, b) => (a.random - b.random))
     .map(student => student.name)
 
-console.log(getRandomStudentList())
+console.log(getRandomStudentList());
+
